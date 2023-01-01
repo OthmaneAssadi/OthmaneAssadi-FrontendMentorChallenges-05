@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary */
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    /* Neutral */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Pale-blue);
+}
+.all {
+    z-index: -1;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/pattern-background-desktop-2.svg");
+    background-position: 100 100;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 630px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 25px;
+}
+.svv {
+    border-radius: 25px 25px 0 0;
+    z-index: 2;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 25px 0 15px 0;
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+.container p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: var(--Desaturated-blue);
+    font-weight: 300;
+    line-height: 1.5;
+}
+.plan {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+    align-items: center;
+}
+.plan  .price{
+    padding-right: 6.25em;
+    padding-top: 3px;
+}
+.plan h3{
+    color: var(--Bright-blue);
+    font-weight: 700 ;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.btn {
+    width: 70%;
+    margin: 0 auto;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 0.3125em;
+    background-color: var(--Bright-blue);
+    font-size: 18px;
+    color: var(--Pale-blue);
+    font-weight: 700;
+    box-shadow: 0px 21px 15px -3px rgba(0,0,0,0.1);
+}
+
+.container .h5 {
+    margin: 1.875em auto;
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+    font-size: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+
+
+
+   
+
+
+}
